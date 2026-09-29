@@ -20,7 +20,7 @@ annotate service.Books with {
 };
 annotate CatalogService.Books with @UI.HeaderInfo: {
     TypeName: 'Item',
-    TypeNamePlural: 'Items'
+    TypeNamePlural: 'Books'
 };
 annotate CatalogService.Books with @UI.SelectionFields: [
     ID,
